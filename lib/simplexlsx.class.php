@@ -1,8 +1,7 @@
 <?php /** @noinspection MultiAssignmentUsageInspection */
 
-namespace Shuchkin\vendor;
+namespace Shuchkin;
 
-use Shuchkin\SimpleXLSXEx;
 use SimpleXMLElement;
 
 /**
