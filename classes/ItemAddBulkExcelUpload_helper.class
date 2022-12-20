@@ -106,7 +106,7 @@ class ItemAddBulkExcelUpload_helper {
 			'date',
 		);
 		$header_cols = count($header);
-		GalleryCoreApi::requireOnce('modules/bulkexcelupload/vendor/simplexlsx.class.php');
+		GalleryCoreApi::requireOnce('modules/bulkexcelupload/lib/simplexlsx.class.php');
 
 		$ret         = null;
 		$xlsx        = Shuchkin\SimpleXLSX::parse($fileName);
